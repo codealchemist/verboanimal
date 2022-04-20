@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #222;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#verb-animal {
+  padding: 0 1vw;
+  cursor: pointer;
+}
+
+#verb {
+  text-transform: capitalize;
+  color: #F4F1BB;
+}
+
+#animal {
+  color: #ED6A5A;
+}
+
+.notification {
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+}
+
+.tip {
+  background: #ED6A5A;
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+  color: #F4F1BB;
+}
