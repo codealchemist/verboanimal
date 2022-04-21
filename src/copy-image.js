@@ -1,4 +1,5 @@
 import Toastify from 'toastify-js'
+import { toBlob } from 'html-to-image'
 
 /**
  * Captures webpage content as image and copies it

@@ -1,5 +1,4 @@
 import fitty from 'fitty'
-import { toBlob } from 'html-to-image'
 import tinykeys from 'tinykeys'
 import Toastify from 'toastify-js'
 import MobileDetect from 'mobile-detect'
