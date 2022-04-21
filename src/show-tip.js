@@ -1,17 +1,22 @@
 import Toastify from 'toastify-js'
 
-export default function showTip(cb) {
+const tips = {
+  desktop: 'Tip: Tocá la barra para refrescar 😂',
+  mobile: 'Tip: Tocá con el dedito tap para refrescar 😆'
+}
+
+export default function showTip ({ deviceType = 'desktop', callback }) {
   setTimeout(() => {
     Toastify({
-      text: 'Tip: Tocá la barra para refrescar 😂',
+      text: tips[deviceType],
       duration: 5000,
       gravity: 'bottom',
       position: 'left',
       className: 'tip'
     }).showToast()
-    
-    if (typeof cb === 'function') {
-      cb()
+
+    if (typeof callback === 'function') {
+      callback()
     }
   }, 3000)
 }

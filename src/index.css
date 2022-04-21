@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -16,20 +18,26 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 #verb-animal {
   padding: 0 1vw;
   cursor: pointer;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 #verb {
   text-transform: capitalize;
-  color: #F4F1BB;
+  color: #f4f1bb;
 }
 
 #animal {
-  color: #ED6A5A;
+  color: #ed6a5a;
 }
 
 .notification {
@@ -40,9 +48,9 @@ body {
 }
 
 .tip {
-  background: #ED6A5A;
+  background: #ed6a5a;
   padding: 10px;
   position: fixed;
   bottom: 20px;
-  color: #F4F1BB;
+  color: #f4f1bb;
 }

@@ -16,6 +16,7 @@
   "dependencies": {
     "fitty": "^2.3.6",
     "html-to-image": "^1.9.0",
+    "mobile-detect": "^1.4.5",
     "tinykeys": "^1.4.0",
     "toastify-js": "^1.11.2"
   },
