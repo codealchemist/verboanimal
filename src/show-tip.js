@@ -2,7 +2,7 @@ import Toastify from 'toastify-js'
 
 const tips = {
   desktop: 'Tip: Tocá la barra para refrescar 😂',
-  mobile: 'Tip: Tocá con el dedito tap para refrescar 😆'
+  mobile: 'Tip: Tocá con el dedito para refrescar 😆'
 }
 
 export default function showTip ({ deviceType = 'desktop', callback }) {
